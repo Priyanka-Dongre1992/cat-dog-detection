@@ -63,18 +63,18 @@ dataset = version.download("yolov5")
 
 
 
-## Train the model
+###  Train the model
 !python train.py --img 416 --batch 4 --epochs 100 --data {dataset.location}/data.yaml --weights yolov5s.pt --cache
 
-##  Test the model
+###  Test the model
 !python detect.py --weights runs/train/exp/weights/best.pt --img 416 --conf 0.1 --source {dataset.location}/test/images
 !python detect.py --weights runs/train/exp/weights/best.pt --img 416 --conf 0.1 --source /content/cat1.jpg
 
-##  Applications
+###  Applications
 Pet monitoring systems.
 Animal behavior studies.
 Security systems to detect pets in restricted areas.
-## Future Scope
+### Future Scope
 Expanding the model to detect other animals.
 Improving the model's accuracy with more diverse datasets.
 Integrating the model into mobile and IoT devices for real-time applications.
