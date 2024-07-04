@@ -38,10 +38,16 @@ Several object detection frameworks have been developed over the years, includin
    - Use the trained model for real-time detection of cats and dogs in images and videos.
 
 
-
 # Test the model
 !python detect.py --weights runs/train/exp/weights/best.pt --img 416 --conf 0.1 --source {dataset.location}/test/images
 !python detect.py --weights runs/train/exp/weights/best.pt --img 416 --conf 0.1 --source /content/cat1.jpg
+#### Demo 
+
+
+
+https://github.com/Priyanka-Dongre1992/cat-dog-detection/assets/174680239/8a3ac5aa-3602-40c9-a4aa-557c5266c6f6
+
+Link :- https://youtu.be/5ODFO9cIIio
 
 #  Applications
 Pet monitoring systems.
